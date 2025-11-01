@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 # 🏙️ Janvaani – Smart Civic Issue Reporting Platform
@@ -112,6 +112,36 @@ RED FLAG → Auto-Reject
 * Sentiment scoring for urgency prediction
 
 ---
+
+
+### ⚙️ **Process flow and working things right now**
+
+**Architecture Overview:**
+Janvaani is built on a **modular client-server architecture** with three connected components:
+
+* **Citizen Mobile App** – Built in **Flutter**, used for issue reporting and tracking.
+* **Admin Dashboard** – Created with **Next.js** via **Firebase Studio**, used by administrators for monitoring.
+* **Backend Server** – Node.js and Express.js-based API managing data flow and AI integration.
+
+**Core Technologies Used:**
+
+| Layer               | Technology             | Purpose                                         |
+| ------------------- | ---------------------- | ----------------------------------------------- |
+| **Frontend (App)**  | Flutter                | Cross-platform mobile application               |
+| **Admin Dashboard** | Next.js + Tailwind CSS | Interactive web dashboard                       |
+| **Backend**         | Node.js + Express.js   | Handles APIs, routing, and AI requests          |
+| **Database**        | MongoDB                | Stores user data, issue reports, and admin info |
+| **Cloud Service**   | Cloudinary             | Manages and optimizes uploaded images           |
+| **AI Integration**  | YOLOv8 + Gemini AI     | Detects and validates civic issues              |
+| **Map Service**     | Google Maps API        | Location tagging and heatmap visualization      |
+
+**Workflow:**
+
+1. A user submits a report with photo & location through the mobile app.
+2. Backend processes the image → YOLOv8 detects issue type.
+3. Data and image are securely stored in **MongoDB** and **Cloudinary**.
+4. Admin dashboard (Firebase-based) displays live issue updates and progress.
+
 
 ## ⚙️ Installation & Setup
 
