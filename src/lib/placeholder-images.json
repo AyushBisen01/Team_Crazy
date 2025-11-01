@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "pothole-1",
+      "description": "A large pothole on a busy street.",
+      "imageUrl": "https://images.unsplash.com/photo-1603209592146-06b8bf383fc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb3Rob2xlJTIwcm9hZHxlbnwwfHx8fDE3NjE5MjUyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pothole road"
+    },
+    {
+      "id": "streetlight-1",
+      "description": "A malfunctioning streetlight at an intersection.",
+      "imageUrl": "https://images.unsplash.com/photo-1641927835171-eef67f89186b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHJlZXRsaWdodCUyMG5pZ2h0fGVufDB8fHx8MTc2MTk3NTYwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "streetlight night"
+    },
+    {
+      "id": "garbage-1",
+      "description": "An overflowing public garbage can.",
+      "imageUrl": "https://images.unsplash.com/photo-1737311957107-4691c75e766b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYXJiYWdlJTIwdHJhc2h8ZW58MHx8fHwxNzYxOTAxODc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "garbage trash"
+    },
+    {
+      "id": "water-leak-1",
+      "description": "Water leaking from a broken pipe on the street.",
+      "imageUrl": "https://images.unsplash.com/photo-1660642670168-d2c7a9921d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3YXRlciUyMGxlYWt8ZW58MHx8fHwxNzYxODkwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water leak"
+    },
+    {
+      "id": "sidewalk-1",
+      "description": "A cracked and broken sidewalk.",
+      "imageUrl": "https://images.unsplash.com/photo-1575292005386-1d2ba352777d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjBzaWRld2Fsa3xlbnwwfHx8fDE3NjE5NzU2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "broken sidewalk"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for a user.",
+      "imageUrl": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxODgyMDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
+}

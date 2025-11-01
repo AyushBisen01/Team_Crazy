@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+# Flutter & Android Studio .gitignore
+
+# Build and IDE files
+.gradle/
+.idea/
+*.iml
+/local.properties
+/build/
+.cxx/
+**/build/
+**/.gradle/
+
+# Dart & Flutter specific
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.macos/
+ios/Flutter/flutter_export_environment.sh
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Keep these files
+!README.md
+!.gitignore
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.genkit/*
+.env*
+
+# firebase
+firebase-debug.log
+firestore-debug.log
+>>>>>>> b53589f0b2c94b31fbf5e3e30dce52eb4c18ce76
