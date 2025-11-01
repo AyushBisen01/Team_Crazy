@@ -311,9 +311,4 @@ firebase init
 **Team Crazy** is building smarter, safer, and cleaner cities —
 one issue at a time. 💪
 =======
-# Firebase Studio
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
->>>>>>> b53589f0b2c94b31fbf5e3e30dce52eb4c18ce76
